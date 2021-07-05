@@ -26,8 +26,8 @@ function drawGrid() {
     }
 
 function addBackground(e) {
-    e.target.style.backgroundColor = 'black';
-    // e.target.style.backgroundColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+    // e.target.style.backgroundColor = 'black';
+    e.target.style.backgroundColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
     console.log(e.target.style.opacity)
     e.target.style.opacity -= 0.1;
     console.log(e.target.style.opacity)
